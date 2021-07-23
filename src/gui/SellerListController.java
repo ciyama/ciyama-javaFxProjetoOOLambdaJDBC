@@ -120,7 +120,7 @@ public class SellerListController implements Initializable, DataChangeListener {
 			Stage dialogStage = new Stage();
 			dialogStage.setTitle("Enter Seller data");
 			dialogStage.setScene(new Scene(pane));
-			dialogStage.setResizable(false);
+			dialogStage.setResizable(true);
 			dialogStage.initOwner(parentStage);
 			dialogStage.initModality(Modality.WINDOW_MODAL);
 			dialogStage.showAndWait();
